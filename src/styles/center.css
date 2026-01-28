@@ -1,0 +1,22 @@
+.center-hero {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.center-hero h1 {
+  font-size: 2.6rem;
+  color: var(--green);
+}
+
+.center-hero p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.center-content {
+  padding-bottom: 40px;
+}

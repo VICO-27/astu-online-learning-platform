@@ -1,0 +1,17 @@
+.layout-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.left-column {
+  flex: 0 0 250px;
+}
+
+.middle-column {
+  flex: 1;
+}
+
+.right-column {
+  flex: 0 0 250px;
+}

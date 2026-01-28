@@ -1,0 +1,32 @@
+.topic-bar {
+  display: flex;
+  gap: 16px;
+  padding: 12px 20px;
+  overflow-x: auto;
+  background-color: var(--white);
+  border-bottom: 1px solid #eee;
+}
+
+.topic-bar::-webkit-scrollbar {
+  height: 6px;
+}
+
+.topic-bar::-webkit-scrollbar-thumb {
+  background: var(--green);
+  border-radius: 10px;
+}
+
+.topic-item {
+  white-space: nowrap;
+  padding: 8px 16px;
+  border-radius: 20px;
+  background: #f5f5f5;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.topic-item:hover {
+  background: var(--green);
+  color: var(--white);
+}
