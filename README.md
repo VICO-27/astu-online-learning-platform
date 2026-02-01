@@ -41,7 +41,7 @@ This project is part of the **Adama Science and Technology University (ASTU) Dev
 ---
 
 ## **📂 Folder Structure**
-
+```
 frontend/
 ├─ src/
 │ ├─ components/
@@ -66,7 +66,7 @@ frontend/
 ├─ package.json
 └─ vite.config.js
 
-
+```
 ---
 
 ## **🚀 Installation & Running Locally**
