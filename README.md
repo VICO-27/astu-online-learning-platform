@@ -2,6 +2,7 @@
 
 Welcome to the **ASTU Online Learning Platform**, a modern, interactive web app built to help students **Learn, Practice, and Grow**.  
 This project is part of the **Adama Science and Technology University (ASTU) Dev Community** initiative.
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/6bc42c04-9c65-4087-8f22-7a17632bb6ef" />
 
 ---
 
@@ -31,6 +32,7 @@ This project is part of the **Adama Science and Technology University (ASTU) Dev
   - Sticky left/right columns for easy navigation.
 
 ---
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/489efaa3-c61b-4262-bbd6-b7119d64e510" />
 
 ## **🛠 Technology Stack**
 
