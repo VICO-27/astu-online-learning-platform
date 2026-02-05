@@ -2,7 +2,7 @@
 
 Welcome to the **ASTU Online Learning Platform**, a modern, interactive web app built to help students **Learn, Practice, and Grow**.  
 This project is part of the **Adama Science and Technology University (ASTU) Dev Community** initiative.
-<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/6bc42c04-9c65-4087-8f22-7a17632bb6ef" />
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/f8e28fe4-34a8-41f5-a600-581465ff8848" />
 
 ---
 
@@ -32,7 +32,7 @@ This project is part of the **Adama Science and Technology University (ASTU) Dev
   - Sticky left/right columns for easy navigation.
 
 ---
-<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/489efaa3-c61b-4262-bbd6-b7119d64e510" />
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/4e953c1c-a936-4f43-9876-9d18a7823958" />
 
 ## **🛠 Technology Stack**
 
@@ -70,6 +70,7 @@ frontend/
 
 ```
 ---
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/7eaff76e-f3bf-40eb-9fcb-8cac18598633" />
 
 ## **🚀 Installation & Running Locally**
 
@@ -104,3 +105,5 @@ Computer Science Student at ASTU (2023/2024)
 
 ## License
 This project is licensed under the MIT License.
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/d80e694f-f5e4-419e-8e2e-82b0f7912e36" />
+
