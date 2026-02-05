@@ -70,7 +70,7 @@ frontend/
 
 ```
 ---
-<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/7eaff76e-f3bf-40eb-9fcb-8cac18598633" />
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/966585f3-dcb1-46b5-a5ea-b256e08f82e3" />
 
 ## **🚀 Installation & Running Locally**
 
