@@ -1,28 +1,27 @@
-// src/components/MainLayout.jsx
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "./Navbar";
+import CoursesBar from "./CoursesBar";
 import LeftProfileCard from "./LeftProfileCard";
-import RightSidebar from "./RightSidebar";
+import RightDashboard from "./RightDashboard";
 import CenterContent from "./CenterContent";
-import "../styles/layout.css";
 
 const MainLayout = () => {
+  const [dashboardOpen, setDashboardOpen] = useState(false);
+
   return (
     <>
       <Navbar />
-      <div className="layout-container">
-        <div className="left-column">
-          <LeftProfileCard />
-        </div>
+      <CoursesBar dashboardOpen={dashboardOpen} />
 
+      <LeftProfileCard />
+      <RightDashboard onToggle={setDashboardOpen} />
+
+      <div className="layout-container">
         <div className="middle-column">
           <CenterContent />
         </div>
-
-        <div className="right-column">
-          <RightSidebar />
-        </div>
       </div>
+      
     </>
   );
 };

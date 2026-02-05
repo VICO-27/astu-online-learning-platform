@@ -2,6 +2,9 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import "../styles/navbar.css";
 
+// 1. Assign the import to a variable
+import astuLogo from "../images/astu-logo.png"; 
+
 const Navbar = () => {
   const [jumpOpen, setJumpOpen] = useState(false);
 
@@ -14,28 +17,20 @@ const Navbar = () => {
     >
       {/* ASTU logo + name */}
       <div className="nav-item logo-container">
-        <img src="/images/astu-logo.png" alt="ASTU Logo" className="astu-logo" />
+        {/* 2. Use the variable here */}
+        <img src={astuLogo} alt="ASTU Logo" className="astu-logo" />
         <h2 className="logo">ASTU</h2>
       </div>
 
-      {/* Free Courses */}
       <div className="nav-item">Free Courses</div>
-
-      {/* Materials */}
       <div className="nav-item">Materials</div>
-
-      {/* Study Plan */}
       <div className="nav-item">Study Plan</div>
-
-      {/* Projects */}
       <div className="nav-item projects-link">Projects</div>
 
-      {/* Search */}
       <div className="nav-item navbar-search">
         <input type="text" placeholder="Search..." />
       </div>
 
-      {/* Jump On */}
       <div
         className="nav-item jump-btn-container"
         onMouseEnter={() => setJumpOpen(true)}
@@ -55,7 +50,6 @@ const Navbar = () => {
         )}
       </div>
 
-      {/* Profile */}
       <div className="nav-item profile">👤</div>
     </motion.nav>
   );

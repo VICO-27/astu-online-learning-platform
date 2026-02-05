@@ -1,14 +1,13 @@
-// src/components/CenterContent.jsx
 import React from "react";
-import Hero from "./Hero";
-import CourseGrid from "./CourseGrid";
+import HeroAnimationCard from "./HeroAnimationCard";
+import ChatbotAI from "./ChatbotAI";
 
 const CenterContent = () => {
   return (
-    <div className="center-content">
-      <Hero />
-      <CourseGrid />
-    </div>
+    <>
+      <HeroAnimationCard />
+      <ChatbotAI />
+    </>
   );
 };
 

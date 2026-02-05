@@ -1,0 +1,64 @@
+.courses-bar {
+  position: sticky;
+  top: var(--navbar-height);
+  z-index: 950;
+  background: #ffffff;
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
+}
+
+/* Horizontal scrolling */
+.courses-scroll {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.courses-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Label */
+.courses-label {
+  font-weight: 700;
+  color: #333;
+  margin-right: 12px;
+  white-space: nowrap;
+}
+
+/* Course pill */
+.course-pill {
+  white-space: nowrap;
+  padding: 8px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--green);
+  background: #f6fff9;
+  color: var(--green);
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.course-pill:hover {
+  background: var(--green);
+  color: #ffffff;
+}
+
+/* Mask when dashboard is open */
+.courses-right-mask {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px; /* same as dashboard width */
+  height: 100%;
+  pointer-events: none;
+  background: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0)
+  );
+}
